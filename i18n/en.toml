@@ -1,0 +1,5 @@
+alert_caution = 'Caution'
+alert_important = 'Important'
+alert_note = 'Note'
+alert_tip = 'Tip'
+alert_warning = 'Warning'

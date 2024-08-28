@@ -1,0 +1,10 @@
+
+{{- $icons := dict
+  "caution" (partial "icons/icon" (dict "vendor" "bootstrap" "name" "exclamation-octagon" "className" "text-danger me-1 me-lg-2"))
+  "important" (partial "icons/icon" (dict "vendor" "bootstrap" "name" "exclamation-square" "className" "text-primary me-1 me-lg-2"))
+  "note" (partial "icons/icon" (dict "vendor" "bootstrap" "name" "info-circle" "className" "text-info me-1 me-lg-2"))
+  "question" (partial "icons/icon" (dict "vendor" "bootstrap" "name" "question-circle" "className" "text-warning me-1 me-lg-2"))
+  "tip" (partial "icons/icon" (dict "vendor" "bootstrap" "name" "lightbulb" "className" "text-success me-1 me-lg-2"))
+  "warning" (partial "icons/icon" (dict "vendor" "bootstrap" "name" "exclamation-triangle" "className" "text-warning me-1 me-lg-2"))
+}}
+{{- return $icons }}
