@@ -1,0 +1,5 @@
+alert_caution = '小心'
+alert_important = '重要'
+alert_note = '注意'
+alert_tip = '提示'
+alert_warning = '警告'
